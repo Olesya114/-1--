@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Авторизация</title>
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        
+        <div class="form">
+            <h5>Для получения доступа к записи на занятия необходимо авторизоваться</h5>
+        </div>
+        
+        <div class="main-form">
+            
+            <div class="title-form">
+                <label>Авторизация</label>
+            </div>
+
+            <input id="login" placeholder="Адрес электронной почты"><br>
+            <input id="password" placeholder="Пароль" type="password"><br>
+            
+            <div class="title-from">
+                <button onclick="auth()" type="submit" id="validate">Войти</button>
+            </div>
+           
+        </div>
+        
+        <body>
+            <div class="errorMessage">
+                <label id="errorMessage"></label>
+            </div>
+        </body>
+        
+        <body>
+        <div class="time">
+            <label>Дата/Время:</label><label id="clock"></label>
+        </div>
+        
+        </body>
+        
+        <script src="main.js"></script>
+    </body>
+</html>

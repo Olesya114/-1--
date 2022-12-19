@@ -1,0 +1,50 @@
+body {
+    font-size: 30px;
+    background-image: url('pictre 2.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: Monotype Corsiva;
+}
+
+.form {
+    font-size: 35px;
+    margin-right: 115px;
+    margin-left: 150px;
+    margin-top: -45px;
+}
+
+.main-form {
+    border-style: double;
+    border-width: 10px;
+    border-color:rgb(56, 58, 170);
+    margin: -3% 28%;
+    margin-right: 115px;
+    margin-left: 750px;
+    margin-top: 5%; 
+    font-size: 20;
+}
+
+.title-form {
+    margin:0 25% 0 25%;
+    width:50%;
+    font-size: 40px;
+}
+
+.errorMessage {
+    font-size: 2vw;
+    color:rgb(7, 5, 129);
+    max-width: 195px;
+    margin-left: 64%;
+    margin-top: 37px;
+}
+
+.time {
+    margin-top: 240px;
+    margin-left: 800px;
+    color: rgb(19, 1, 66);
+}
